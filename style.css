@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    font-family: 'Manrope', sans-serif;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+    display: grid;
+    place-content: center;
+    padding-inline: 20px;
+}
+section{
+    background-color: hsl(217, 19%, 24%);
+    padding: 40px 20px 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    max-width: 600px;
+    border-radius: 20px;
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+    transition: 0.3s;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: hsl(150, 100%, 66%);
+    font-size: 12px;
+}
+p{
+    font-size: 28px;
+    transition: 0.3s;
+}
+button{
+    all: unset;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    aspect-ratio: 1;
+    background-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    box-shadow: 0px     0px 25px 0px hsl(150, 100%, 66%)
+}
